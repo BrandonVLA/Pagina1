@@ -22,7 +22,7 @@
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
     <!-- Estilos Personalizados -->
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -39,9 +39,23 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
+
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#Header">Encabezado</a>
                 </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#Testimonios">Testimonios</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#Articulos">Articulos</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#Footer">Pie de Pagina</a>
+                </li>
+
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">Dropdown</a>
@@ -63,7 +77,7 @@
     <div class="container">
 
         <!-- Inicio: Header  -->
-        <header class="mb-5 mt-5">
+        <header id="Header" class="mb-5 mt-5">
 
             <div class="container">
                 <div class="row">
@@ -76,15 +90,17 @@
                     <!-- Inicio: Contenedor 2  -->
                     <!-- b4-jumbotron-default --> <!-- se usa para crear el contenedor de abajo -->
                     <div class="col-md-6 col-sm-6">
-                        <div class="jumbotron">
-                            <h1 class="display-3">Jumbo heading</h1>
-                            <p class="lead">Jumbo helper text</p>
-                            <hr class="my-2">
-                            <p>More info</p>
-                            <p class="lead">
-                                <a class="btn btn-outline-secondary btn-lg mt-2" href="Jumbo action link"
-                                    role="button">Jumbo action name</a>
+                        <div class="">
+                            <h1 class="display-4">Jumbo heading</h1>
+                            <p class="lead mt-5">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sapiente dolore ducimus
+                                exercitationem blanditiis est adipisci, ipsam sunt suscipit magnam et aliquam architecto
+                                doloremque fugiat, molestiae alias illum officiis impedit.
                             </p>
+
+                            <a class="btn btn-info btn-lg mt-2 d-flex justify-content-center"
+                                href="Jumbo action link" role="button">Jumbo action name</a>
+
                         </div>
                     </div>
                     <!-- Fin: Contenedor  2 -->
@@ -95,34 +111,42 @@
 
         <!-- Inicio: Main  -->
         <main>
+
+
             <!-- Inicio: section  1 Testimonios -->
-            <section class="Testimonios">
+            <section id="Testimonios" class="Testimonios mt-5">
                 <!-- Inicio: Contenedor 1 -->
                 <div class="container">
-                    Hola
+                    <p class="h2 mb-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eaque sed repellendus aliquid eos id commodi. Totam ducimus odit voluptate, animi dolore provident, explicabo quod odio magni exercitationem, nemo reprehenderit?
+                    </p>
+                    <p class="h4 lead">- Autor </p>
                 </div>
                 <!-- Fin: Contenedor 1 -->
             </section>
             <!-- Fin: section 1 -->
 
+
             <!-- Inicio: section 2 Articulos -->
-            <section class="Articulos">
+            <section id="Articulos" class="Articulos mt-5">
                 <div class="container">
                     <div class="row">
                         <!-- Inicio: Contenedor 1  -->
                         <div class="col-md-6">
-                            Hola
+                            <img src="/Assets/imagen2.png" class="w-100" alt="">
                         </div>
                         <!-- Fin: Contenedor 1 -->
 
+
                         <!-- Inicio: Contenedor 2  -->
                         <div class="col-md-6">
-                            Hola
+                            <h2>Lorem ipsum dolor</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate eligendi a laborum fugit, praesentium, quia nemo minus minima accusantium earum eum! Odit quia, consequuntur nesciunt tempora non id nemo dignissimos.</p>
+                            <a href="#" class="btn btn-danger btn-lg">Read More</a>
                         </div>
                         <!-- Fin: Contenedor  2-->
                     </div>
                 </div>
-
 
 
             </section>
@@ -134,7 +158,7 @@
     <!-- Fin: Container  -->
 
     <!-- Inicio: Footer  100% -->
-    <footer class="text-center">
+    <footer id="Footer" class="text-center mt-5">
         <!-- Inicio: footer-informacion    -->
         <div class="container">
             <div class="row">
